@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Multiple Flat Rate Shipping
+ * 
+ * @author Slava Yurthev
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="sy_copyright">
+		<observer name="sy_copyright_multiple_flat_rate_shipping" instance="SY\MultipleFlatRateShipping\Observer\Copyright" />
+	</event>
+</config>
